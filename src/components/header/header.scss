@@ -1,0 +1,41 @@
+@import "../../scss/variables";
+
+.header{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 2rem;
+    background-color: rgb(71, 13, 13);
+
+    .title{
+
+        color: rgb(255, 149, 149);
+        font-size: 2rem;
+        margin-top: 7rem;
+        // text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        animation: flickerA 1.5s ease-in-out alternate infinite;
+
+        &:hover{
+            color: black;
+            cursor: pointer;
+        }
+
+        transition: all 2s ease-in-out;
+
+    }
+
+
+    @keyframes flickerA {
+
+        0%{
+            opacity: 0;
+            text-shadow: 7px 7px 10px $cardNavBgColor;
+        }
+
+        100%{
+            text-shadow: 7px 7px 10px $cardNavBgColor;
+
+        }
+        
+    }
+}
