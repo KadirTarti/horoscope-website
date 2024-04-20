@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# MIKE-TEC Car Repair Appointment App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://horoscopewebsite.netlify.app/
 
-## Available Scripts
+## Description 🟢
 
-In the project directory, you can run:
+In this project, a Horoscope web page showing horoscope cards was developed. The navbar links on the homepage are redirected through components in the background. It can be observed that the endpoints in the address bar change when the links are clicked.
+When you hover over Tarot cards, information about that zodiac sign is shown on the card. The fixed feature was used to keep the navbar fixed at the top when scrolling.
 
-### `npm start`
+## Outcome 🎥
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![horoscope-web-site-ezgif com-optimize](https://github.com/KadirTarti/KadirTarti/assets/150926891/37332d52-3033-4fc2-9823-cabaa879380c)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Project Skeleton  👷
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+````
+Appointment App(folder)
+|
+├── public
+│     └── index.html
+├── src
+│    ├── components
+│    │       ├── Header
+│    │       │     ├── Header.jsx
+│    │       │     └── header.scss
+│    │       ├── Main
+│    │       │     ├── Card.jsx
+│    │       │     ├── Main.jsx
+│    │       │     └── main.scss
+│    │       └── Navbar
+│    │       │     ├── Navbar.jsx
+│    │       │     └── navbar.scss
+│    ├── helper
+│    │       ├── data.js
+│    │       └── logo.png
+│    ├── scss
+│    │       ├── _mixins.scss
+│    │       ├── _reset.scss
+│    │       └── _variables.scss
+│    ├── App.js
+│    ├── App.scss
+│    └── index.js
+│
+├── .gitignore
+├── package.lock.json
+├── package.json
+└── README.md
 
-### `npm run build`
+````
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## User Stories: 🗺️
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1-) As a user, I want to navigate easily through the horoscope web page, so I can access different sections without confusion.
+2-) As a user, I want the navbar links on the homepage to redirect me to the corresponding sections, so I can find information about specific zodiac signs quickly.
+3-) As a user, I want to see the endpoints change in the address bar when I click on navbar links, so I can understand the navigation path and bookmark specific sections if needed.
+4-) As a user, I want to hover over Tarot cards and see information about the associated zodiac signs, so I can learn more about them without navigating away from the current page.
+5-) As a user, I want the navbar to remain fixed at the top when I scroll down the page, so I can access navigation options conveniently without having to scroll back to the top.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Objective 🔍
+Build a Hospital Appointment App using ReactJS.
 
-### `npm run eject`
+### At the end of the project, we will be able to;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+⭐ improve coding skills within HTML & CSS & SCSS & JS & ReactJS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+⭐ Printing the requested data from the Data.js file to the screen
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+⭐ use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Contributing & Collaborate 💪
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+All contributions from different perspectives greatly enrich my projects! Whether you have new project ideas or contributions to improve my current projects, all contributions are invaluable. Feel free to open a topic or submit a pull request with your suggested changes to start a dialogue about your thoughts. Every contribution plays a vital role in my progress. so thank you for being an integral part of my community!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+**<p align="center"> 💻 Happy Work 💻 </p>** 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
