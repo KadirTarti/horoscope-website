@@ -1,4 +1,4 @@
-# MIKE-TEC Car Repair Appointment App
+# Horoscope Website
 
 https://horoscopewebsite.netlify.app/
 
