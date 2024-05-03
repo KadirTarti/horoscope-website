@@ -52,9 +52,13 @@ Horoscope App(folder)
 ## User Stories: 🗺️
 
 1-) As a user, I want to navigate easily through the horoscope web page, so I can access different sections without confusion.
+
 2-) As a user, I want the navbar links on the homepage to redirect me to the corresponding sections, so I can find information about specific zodiac signs quickly.
+
 3-) As a user, I want to see the endpoints change in the address bar when I click on navbar links, so I can understand the navigation path and bookmark specific sections if needed.
+
 4-) As a user, I want to hover over Tarot cards and see information about the associated zodiac signs, so I can learn more about them without navigating away from the current page.
+
 5-) As a user, I want the navbar to remain fixed at the top when I scroll down the page, so I can access navigation options conveniently without having to scroll back to the top.
 
 ## Objective 🔍
